@@ -1,0 +1,8 @@
+change the ids i
+
+example:
+
+ if (!message.member.roles.cache.has('Role Id')) {
+ message.delete();
+ await message.member.roles
+ .add('Role Id')
